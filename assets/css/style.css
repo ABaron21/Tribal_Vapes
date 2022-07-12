@@ -2,7 +2,13 @@
 
 /* --Colours-- */
 .bg-colour-navbar{
-    background-color: rgb(61, 61, 61);
+    background-color: rgb(92, 92, 92);
+}
+
+.nav-text{
+    color: #fafafa;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
 }
 
 /* --Special paddings/margins/text-- */
@@ -24,11 +30,6 @@ h4 {
     height: 50px;
 }
 
-.navbar ul{
-    padding: 0;
-    margin: 0;
-}
-
 .navbar-item {
     display: inline;
     float: right;
@@ -36,9 +37,6 @@ h4 {
 }
 
 .navbar-title, .navbar-link {
-    color: #fafafa;
-    font-family: "Ubuntu", sans-serif;
-    font-weight: 500;
     display: block;
     align-items: center;
     width: 125px;
