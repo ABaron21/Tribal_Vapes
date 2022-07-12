@@ -26,10 +26,6 @@ h4 {
 
 /* --Navigation-- */
 
-.navbar{
-    height: 50px;
-}
-
 .navbar-item {
     display: inline;
     float: right;
