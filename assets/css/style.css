@@ -75,6 +75,21 @@ h4 {
     align-items: center;
 }
 
+.recommendation-container{
+    border-top: 1px solid #fff;
+    height: 50vh;
+
+    background-color: #212529;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.footer-container{
+    background-color: rgb(92, 92, 92);
+}
+
 /* --Hero-- */
 .jumbotron{
     background-color: rgba(0, 0, 0, 0.5);
@@ -100,3 +115,36 @@ h4 {
     color: #fafafa;
     margin-top: 5px;
 }
+
+/* --Recommended-- */
+.recommended-title{
+    color: #fafafa;
+    font-size: 35px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.recommended-item{
+    margin: 15px auto;
+}
+
+.recommended-item h4, p{
+    color: #fafafa;
+    text-align: center;
+}
+
+.recommended-item h4{
+    margin-bottom: 10px;
+}
+
+.recommended-item p{
+    margin-top: 10px;
+}
+
+
+/* --Reviews-- */
+
+
+
+/* --Footer-- */
