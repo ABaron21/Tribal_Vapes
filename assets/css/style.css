@@ -9,7 +9,7 @@ body{
     background-color: rgb(92, 92, 92);
 }
 
-/* --Special paddings/margins/text-- */
+/* --Special paddings/margins/text etc-- */
 
 h1,
 h2,
@@ -20,6 +20,13 @@ h4 {
 
 .uppercase {
     text-transform: uppercase;
+}
+
+.block-divider{
+    width: 75px;
+    height: 5px;
+    border: 0;
+    background-color: #fafafa;
 }
 
 /* --Navigation-- */
@@ -75,16 +82,13 @@ h4 {
     align-items: center;
 }
 
-.recommendation-container{
+.review-container, .recommendation-container{
     border-top: 1px solid #fff;
-    height: 50vh;
 
     background-color: #212529;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
 }
+
+
 
 .footer-container{
     background-color: rgb(92, 92, 92);
@@ -142,9 +146,27 @@ h4 {
     margin-top: 10px;
 }
 
+.recommended-item .btn{
+    min-width: 100px;
+    border-radius: 12px;
+    font-weight: bold;
+}
+
 
 /* --Reviews-- */
 
+.review-title{
+    color: #fafafa;
+    font-size: 35px;
+    text-align: center;
+    margin-top: 30px;
+}
 
+.review-text{
+    width: 50%;
+    margin: 5px auto;
+}
 
-/* --Footer-- */
+.review-text p{
+    color: #fafafa;
+}
