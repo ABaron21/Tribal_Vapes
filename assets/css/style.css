@@ -67,6 +67,7 @@ h4 {
     text-decoration: none;
 }
 
+/* ----------Landing Page-- */
 /* --Containers-- */
 .hero-container{
     height: 100vh;
@@ -87,8 +88,6 @@ h4 {
 
     background-color: #212529;
 }
-
-
 
 .footer-container{
     background-color: rgb(92, 92, 92);
@@ -170,3 +169,8 @@ h4 {
 .review-text p{
     color: #fafafa;
 }
+
+/* ----------About Page-- */
+
+
+/* ----------Shop Page-- */
