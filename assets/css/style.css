@@ -29,6 +29,29 @@ h4 {
     background-color: #fafafa;
 }
 
+.block-divider-thin{
+    width: 75px;
+    height: 2.5px;
+    border: 0;
+    background-color: #fafafa;
+}
+
+/* --Wrappers-- */
+.home-page-outer-wrapper,
+.about-page-outer-wrapper,
+.shop-page-outer-wrapper{
+    background-color: #212529;
+    width: 100%;
+}
+.home-page-inner-wrapper,
+.about-page-inner-wrapper,
+.shop-page-inner-wrapper{
+    background-color: #595f6688;
+    color: #fafafa;
+    width: 85%;
+    margin: 0 auto;
+}
+
 /* --Navigation-- */
 .navbar-item {
     display: inline;
@@ -85,8 +108,6 @@ h4 {
 
 .review-container, .recommendation-container{
     border-top: 1px solid #fff;
-
-    background-color: #212529;
 }
 
 .footer-container{
@@ -171,25 +192,17 @@ h4 {
 }
 
 /* ----------About Page-- */
-.about-page-outer-wrapper{
-    background-color: #212529;
-    width: 100%;
-}
-.about-page-inner-wrapper{
-    background-color: #595f6688;
-    color: #fafafa;
-    width: 95%;
-    margin: 0 auto;
-}
 
 /* ----------Shop Page-- */
-.shop-page-outer-wrapper{
-    background-color: #212529;
-    width: 100%;
-}
-.shop-page-inner-wrapper{
-    background-color: #595f6688;
-    color: #fafafa;
-    width: 95%;
+.liquid-item, .rechargable-item, .disposable-item{
+    width: 40%;
+    text-align: center;
     margin: 0 auto;
+    padding: 10px;
+}
+.liquid-image, .rechargable-image, .disposable-image{
+    width: 100px;
+    height: 100px;
+    margin-top: 5px;
+    margin-bottom: 10px;
 }
