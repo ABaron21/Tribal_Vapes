@@ -171,6 +171,25 @@ h4 {
 }
 
 /* ----------About Page-- */
-
+.about-page-outer-wrapper{
+    background-color: #212529;
+    width: 100%;
+}
+.about-page-inner-wrapper{
+    background-color: #595f6688;
+    color: #fafafa;
+    width: 95%;
+    margin: 0 auto;
+}
 
 /* ----------Shop Page-- */
+.shop-page-outer-wrapper{
+    background-color: #212529;
+    width: 100%;
+}
+.shop-page-inner-wrapper{
+    background-color: #595f6688;
+    color: #fafafa;
+    width: 95%;
+    margin: 0 auto;
+}
