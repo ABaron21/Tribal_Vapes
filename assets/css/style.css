@@ -149,6 +149,13 @@ h4 {
     margin-bottom: 20px;
 }
 
+.recommended-image{
+    width: 150px;
+    height: 150px;
+    border: 2px solid black;
+    border-radius: 12px;
+}
+
 .recommended-item{
     margin: 15px auto;
 }
@@ -194,15 +201,21 @@ h4 {
 /* ----------About Page-- */
 
 /* ----------Shop Page-- */
-.liquid-item, .rechargable-item, .disposable-item{
+.new-item, .liquid-item, .rechargable-item, .disposable-item{
     width: 40%;
     text-align: center;
     margin: 0 auto;
     padding: 10px;
 }
-.liquid-image, .rechargable-image, .disposable-image{
+.new-image, .liquid-image, .rechargable-image, .disposable-image{
     width: 100px;
     height: 100px;
     margin-top: 5px;
     margin-bottom: 10px;
+    border-radius: 12px;
+    border: 2px solid black;
+}
+.liquid-item select, .rechargable-item select, .disposable-item select{
+    background-color: #212529;
+    color: #fafafa;
 }
