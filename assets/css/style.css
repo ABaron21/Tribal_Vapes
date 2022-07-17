@@ -219,6 +219,26 @@ h4 {
     border: 2px solid black;
     margin-top: 10px;
 }
+
+.team-member{
+    margin: 15px auto;
+}
+
+.team-member h5, p{
+    text-align: center;
+}
+
+.team-member h5{
+    margin-bottom: 10px;
+}
+
+.team-member p{
+    margin-top: 10px;
+}
+.team-text{
+    width: 80%;
+    margin: 0 auto;
+}
 /* ----------Shop Page-- */
 .new-item, .liquid-item, .rechargable-item, .disposable-item{
     width: 40%;
