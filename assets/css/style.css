@@ -199,7 +199,26 @@ h4 {
 }
 
 /* ----------About Page-- */
+.about-text, .ceo-text{
+    padding: 0 10px 0 10px;
+}
 
+.about-text{
+    width: 80%;
+    margin: 5px auto;
+}
+
+.about-text p{
+    font-size: 16px;
+}
+
+.team-image, .ceo-image{
+    width: 150px;
+    height: 150px;
+    border-radius: 12px;
+    border: 2px solid black;
+    margin-top: 10px;
+}
 /* ----------Shop Page-- */
 .new-item, .liquid-item, .rechargable-item, .disposable-item{
     width: 40%;
