@@ -257,4 +257,5 @@ h4 {
 .liquid-item select, .rechargable-item select, .disposable-item select{
     background-color: #212529;
     color: #fafafa;
+    font-size: 12px;
 }
