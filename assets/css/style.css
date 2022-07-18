@@ -259,3 +259,32 @@ h4 {
     color: #fafafa;
     font-size: 12px;
 }
+
+/* -- Media Queries -- */
+@media screen and (min-width:600px) {
+    .team-member{
+        width: 75%;
+    }
+    .team-image{
+        float: left;
+    }
+    .team-text{
+        float: right;
+        width: 50%;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .ceo-text{
+        margin-right: 20px;
+    }
+}
+
+@media screen and (min-width:950px){
+    .new-item, .disposable-item, .rechargable-item, .liquid-item{
+        width: 200px;
+    }
+    .team-member{
+        width: 40%;
+    }
+}
