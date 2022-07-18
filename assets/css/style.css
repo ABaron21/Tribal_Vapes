@@ -312,7 +312,7 @@ h4 {
     }
 }
 
-@media screen and (min-width:1200px) {
+@media screen and (min-width:1280px) {
     .team-member{
         width: 30%;
         text-align: center;
@@ -323,10 +323,28 @@ h4 {
         margin-left: 75px;
     }
     .team-text{
+        font-size: 20px;
         margin-right: 65px;
     }
     .ceo-image{
         width: 250px;
         height: 250px;
+    }
+    .ceo-text{
+        font-size: 25px;
+    }
+    .about-text p{
+        font-size: 20px;
+    }
+}
+@media screen and (min-width:1920px) {
+    .team-member p{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .team-image{
+        width: 200px;
+        height: 200px;
     }
 }
