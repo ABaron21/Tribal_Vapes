@@ -89,7 +89,9 @@ h4 {
     border-radius: 5px;
     text-decoration: none;
 }
-
+.navbar-toggler i{
+    color: #fff;
+}
 
 /* ----------Landing Page-- */
 /* --Containers-- */
@@ -262,6 +264,14 @@ h4 {
 }
 
 /* -- Media Queries -- */
+@media screen and (max-width:576px) {
+    .navbar-nav{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
 @media screen and (min-width:600px) {
     .team-member{
         width: 75%;
@@ -299,5 +309,24 @@ h4 {
         width: 75%;
         margin-right: 30px;
         margin-top: 15px;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .team-member{
+        width: 30%;
+        text-align: center;
+    }
+    .team-image{
+        width: 200px;
+        height: 200px;
+        margin-left: 75px;
+    }
+    .team-text{
+        margin-right: 65px;
+    }
+    .ceo-image{
+        width: 250px;
+        height: 250px;
     }
 }
