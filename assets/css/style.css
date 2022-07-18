@@ -278,6 +278,9 @@ h4 {
     .ceo-text{
         margin-right: 20px;
     }
+    .review-text{
+        width: 75%;
+    }
 }
 
 @media screen and (min-width:950px){
@@ -286,5 +289,14 @@ h4 {
     }
     .team-member{
         width: 40%;
+    }
+    .ceo-image{
+        width: 200px;
+        height: 200px;
+    }
+    .ceo-text{
+        width: 75%;
+        margin-right: 30px;
+        margin-top: 15px;
     }
 }
