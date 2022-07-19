@@ -223,6 +223,11 @@ h4 {
     margin-top: 10px;
 }
 
+.ceo-name{
+    font-weight: bold;
+    font-size: 18px;
+}
+
 .team-member{
     margin: 15px auto;
 }
