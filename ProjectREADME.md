@@ -7,8 +7,16 @@ The purpose of this project is to design and develop a static website based arou
 ## User Stories
 ----
 ## Features
+With the project only being a static website there are only a few features such navigating between 3 different pages as well as a collapsable nav menu for smaller screen sizes like mobile devices. On the home/index page there is a jumbotron feature that displays a promotion for first time users, below that is a section that shows three recommended items with a review section under the recommended that displays two reviews about the website/company.
+
+On the about page there'll be three sections, the first being a small text section describing what Tribal Vapes is about, the second section will talk about the ceo of the company, at the bottom of page will be a section that'll show the leaders of three main departments that'll consist within the business.
+
+The third page on the website is a shopping page that'll consist of four sections that'll be similar but the only difference will be the type of items being displayed, the main feature of the page is a dropdown selection that'll have different flavours or colours.
+
 ----
 ## Future Features
+Future plans for features to be added to the website is a shopping basket system, account system with a wallet/payment system, a contact section where customers can leave feedback or ask any questions. A change that could be made is a more depth shopping page that would extend into sub-pages based on the type of product.
+
 ----
 ## Typography & Color Scheme
 The font that will be used throughout the web pages is "Ubuntu"(Link to font) with different font weights for a regular, bold and light font style. The font colour is going to be an offset white.
