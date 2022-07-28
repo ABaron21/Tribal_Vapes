@@ -5,6 +5,12 @@ The purpose of this project is to design and develop a static website based arou
 
 ----
 ## User Stories
+As a customer I would like to see reviews/feedback from other customers so I can see how other people have liked the service and products sold.
+
+As a customer I would like to read about the company so I can find out about the company with how they express their business and how they help expand their user friendly expierience.
+
+As a customer I need to be able to see a wide range of products that the company sells so I can decide a choice from multi different brands/flavours and different rechargables.
+
 ----
 ## Features
 With the project only being a static website there are only a few features such navigating between 3 different pages as well as a collapsable nav menu for smaller screen sizes like mobile devices. On the home/index page there is a jumbotron feature that displays a promotion for first time users, below that is a section that shows three recommended items with a review section under the recommended that displays two reviews about the website/company.
