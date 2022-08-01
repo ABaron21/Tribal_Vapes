@@ -7,7 +7,16 @@ Moving to the production stage, there was two main technologies as well as an ad
 
 ----
 ## Testing
+### Code Validation
+![code_validated](assets/images/code-validation.PNG)
 
+### Bugs
+One bug that occured during the production was whilst the implementation of the collapsable navigation bar was being added and the error shown below kept showing in the chrome dev tool.
+![fixed_bug](assets/images/snippet.PNG)
+After looking over code, the reason for this bug to appear was the simple solution that versions for bootstrap that had been added were all different so resolving the situation was just a case of making sure all the bootstrap scripts/links were all the same version.
+
+### Screens
+All web pages within the website have been tested to make sure that they are responsive for all screen sizes starting at mobile devices and increasing upwards to tablets, laptops and finally desktops being the typically largest screen expected for a browser window.
 
 ----
 ## Deployment
