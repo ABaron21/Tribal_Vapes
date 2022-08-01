@@ -23,3 +23,6 @@ All web pages within the website have been tested to make sure that they are res
 ----
 ## Deployment
 As this project is only a small website production consisting of three web pages with just HTML and CSS, the website will be deployed through GitHub's GitPages as there's hardly any functionality behind the website so GitPages will be able to deploy the website and it'll be stable to view each web page with navigating between them and seeing the content of each page.
+
+----
+## Image Sources
