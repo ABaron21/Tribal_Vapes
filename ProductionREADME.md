@@ -8,7 +8,17 @@ Moving to the production stage, there was two main technologies as well as an ad
 ----
 ## Testing
 ### Code Validation
-![code_validated](assets/images/code-validation.PNG)
+Landing Page
+
+![index_validated](assets/images/validations/code-validation.PNG)
+
+About Page
+
+![about_validated](assets/images/validations/code-validation2.PNG)
+
+Shop Page
+
+![shop_validated](assets/images/validations/code-validation3.PNG)
 
 ### Bugs
 One bug that occured during the production was whilst the implementation of the collapsable navigation bar was being added and the error shown below kept showing in the chrome dev tool.
