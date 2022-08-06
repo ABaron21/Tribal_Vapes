@@ -13,7 +13,7 @@
 
 <body>
     <!--Navigation-->
-    <nav class="navbar-expand-sm navbar bg-colour-navbar">
+    <nav class="navbar-expand-sm navbar bg-colour-navbar fixed-top">
         <h6 class="navbar-title uppercase">Tribal Vapes</h6>
         <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
             aria-expanded="false" aria-controls="navbarNavDropdown" aria-label="Toggle Navigation">
@@ -28,14 +28,14 @@
                     <a href="about.html" class="active navbar-link">About</a>
                 </li>
                 <li class="navbar-item mr-2">
-                    <a href="shop.html" class="navbar-link">Shop</a>
+                    <a href="shop.html" class="navbar-link">Products</a>
                 </li>
-                <li class="mr-2 navbar-item d-block d-sm-none"><a href="#" class="navbar-link">Sign In / Sign Up</a>
+                <li class="mr-2 navbar-item d-block d-sm-none"><a href="#" class="navbar-link" data-toggle="modal" data-target="#signInModal">Sign In / Sign Up</a>
                 </li>
             </ul>
         </div>
         <div class="d-none d-md-block">
-            <a href="#" class="signup">Sign In / Sign Up</a>
+            <a href="#" class="signup" data-toggle="modal" data-target="#signInModal">Sign In / Sign Up</a>
         </div>
     </nav>
     <div class="about-page-outer-wrapper">
@@ -115,19 +115,84 @@
     <footer class="container-fluid footer-container">
         <div class="row">
             <div class="col-3 mb-1 text-center social-item">
-                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
             </div>
             <div class="col-3 mb-1 text-center social-item">
-                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
             </div>
             <div class="col-3 mb-1 text-center social-item">
-                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://twitter.com/" target="_blank"><i class="fa-brands fa-twitter"></i></a>
             </div>
             <div class="col-3 mb-1 text-center social-item">
-                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://www.linkedin.com/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
             </div>
         </div>
     </footer>
+        <!--Modals-->
+        <div class="modal" tabindex="-1" role="dialog" id="signUpModal">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Sign Up to Tribal Vapes</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="form-group">
+                                <label for="email">Email address</label>
+                                <input type="email" class="form-control" id="email"
+                                    aria-describedby="emailHelp" placeholder="Enter email">
+                                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+                                    else.</small>
+                            </div>
+                            <div class="form-group">
+                                <label for="password">Password</label>
+                                <input type="password" class="form-control" id="password"
+                                    placeholder="Password">
+                            </div>
+                            <div class="form-group">
+                                <label for="confirm-password">Confirm Password</label>
+                                <input type="password" class="form-control" id="confirm-password"
+                                    placeholder="Password">
+                            </div>
+                            <button type="submit" class="btn btn-primary" data-dismiss="modal">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal" tabindex="-1" role="dialog" id="signInModal">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Sign In</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">Email address</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1"
+                                    aria-describedby="emailHelp" placeholder="Enter email">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputPassword1">Password</label>
+                                <input type="password" class="form-control" id="exampleInputPassword1"
+                                    placeholder="Password">
+                            </div>
+                            <div class="form-group">
+                                <small class="form-text text-muted" data-dismiss="modal" data-toggle="modal" data-target="#signUpModal">Don't have an account? Sign up now!</small>
+                            </div>
+                            <button type="submit" class="btn btn-primary" data-dismiss="modal">Login</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
     <!--Scripts-->
     <script src="https://kit.fontawesome.com/aa35820a25.js" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"

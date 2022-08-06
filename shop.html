@@ -13,7 +13,7 @@
 
 <body>
     <!--Navigation-->
-    <nav class="navbar-expand-sm navbar bg-colour-navbar">
+    <nav class="navbar-expand-sm navbar bg-colour-navbar fixed-top">
         <h6 class="navbar-title uppercase">Tribal Vapes</h6>
         <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
             aria-expanded="false" aria-controls="navbarNavDropdown" aria-label="Toggle Navigation">
@@ -28,14 +28,14 @@
                     <a href="about.html" class="navbar-link">About</a>
                 </li>
                 <li class="navbar-item mr-2">
-                    <a href="shop.html" class="active navbar-link">Shop</a>
+                    <a href="shop.html" class="active navbar-link">Products</a>
                 </li>
-                <li class="mr-2 navbar-item d-block d-sm-none"><a href="#" class="navbar-link">Sign In / Sign Up</a>
+                <li class="mr-2 navbar-item d-block d-sm-none"><a href="#" class="navbar-link" data-toggle="modal" data-target="#signInModal">Sign In / Sign Up</a>
                 </li>
             </ul>
         </div>
         <div class="d-none d-md-block">
-            <a href="#" class="signup">Sign In / Sign Up</a>
+            <a href="#" class="signup" data-toggle="modal" data-target="#signInModal">Sign In / Sign Up</a>
         </div>
     </nav>
     <div class="shop-page-outer-wrapper">
@@ -54,28 +54,24 @@
                         <p>Elf Berg</p>
                         <img src="assets/images/disposables/elf-bar.jpg" alt="elf-bar" class="new-image">
                         <p>£5.99</p>
-                        <p><a class="btn btn-primary btn-sm" href="">Buy</a></p>
                     </div>
                     <div class="new-item">
                         <h5>Elux</h5>
                         <p>Tiger Blood</p>
                         <img src="assets/images/disposables/elux.jpg" alt="elux-bar" class="new-image">
                         <p>£9.99</p>
-                        <p><a class="btn btn-primary btn-sm" href="">Buy</a></p>
                     </div>
                     <div class="new-item">
                         <h5>12 Monkeys</h5>
                         <p>Jungle Secrets</p>
                         <img src="assets/images/liquids/12-monkeys.jpg" alt="crystal-bar" class="new-image">
                         <p>£7.00</p>
-                        <p><a class="btn btn-primary btn-sm" href="">Buy</a></p>
                     </div>
                     <div class="new-item">
                         <h5>Zeus Juice</h5>
                         <p>Atlantis</p>
                         <img src="assets/images/liquids/zeus-juice.jpg" alt="aroma-king" class="new-image">
                         <p>£4.99</p>
-                        <p><a class="btn btn-primary btn-sm" href="">Buy</a></p>
                     </div>
                 </div>
             </header>
@@ -92,54 +88,22 @@
                     <div class="disposable-item">
                         <h5>Elf Bar</h5>
                         <img src="assets/images/disposables/elf-bar.jpg" alt="elf-bar" class="disposable-image">
-                        <select name="elf-flavours" id="elf-flavours">
-                            <option value="">Select Flavour</option>
-                            <option value="energy-ice">Energy Ice</option>
-                            <option value="grape">Grape</option>
-                            <option value="elf-berg">Elf Berg</option>
-                            <option value="blueberry">Blueberry</option>
-                        </select>
                         <p>£5.99</p>
-                        <p><a class="btn btn-primary btn-sm" href="">Buy</a></p>
                     </div>
                     <div class="disposable-item">
                         <h5>Elux</h5>
                         <img src="assets/images/disposables/elux.jpg" alt="elux-bar" class="disposable-image">
-                        <select name="elux-flavours" id="elux-flavours">
-                            <option value="">Select Flavour</option>
-                            <option value="blueberry-raspberry">Blueberry Raspberry</option>
-                            <option value="fresh-mint">Fresh Mint</option>
-                            <option value="tiger-blood">Tiger Blood</option>
-                            <option value="peach-mango">Peach Mango</option>
-                        </select>
                         <p>£9.99</p>
-                        <p><a class="btn btn-primary btn-sm" href="">Buy</a></p>
                     </div>
                     <div class="disposable-item">
                         <h5>Crystal Bar</h5>
                         <img src="assets/images/disposables/crystal-bar.jpg" alt="crystal-bar" class="disposable-image">
-                        <select name="crystal-flavours" id="crystal-flavours">
-                            <option value="">Select Flavour</option>
-                            <option value="berry-ice">Berry Ice</option>
-                            <option value="blue-fusion">Blue Fusion</option>
-                            <option value="vimto-bull">Vimto Bull</option>
-                            <option value="honey-melon">Honey Melon</option>
-                        </select>
                         <p>£5.00</p>
-                        <p><a class="btn btn-primary btn-sm" href="">Buy</a></p>
                     </div>
                     <div class="disposable-item">
                         <h5>Aroma King</h5>
                         <img src="assets/images/disposables/aroma-king.jpg" alt="aroma-king" class="disposable-image">
-                        <select name="aroma-flavours" id="aroma-flavours">
-                            <option value="">Select Flavour</option>
-                            <option value="pina-colada">Pina Colada</option>
-                            <option value="banana-ice">Banana Ice</option>
-                            <option value="cotton-candy">Cotton Candy</option>
-                            <option value="grape-ice">Grape Ice</option>
-                        </select>
                         <p>£15.00</p>
-                        <p><a class="btn btn-primary btn-sm" href="">Buy</a></p>
                     </div>
                 </div>
             </section>
@@ -156,54 +120,22 @@
                     <div class="rechargable-item">
                         <h5>Aspire Pockex</h5>
                         <img src="assets/images/rechargables/aspire-pockex.jpg" alt="aspire-pockex" class="rechargable-image">
-                        <select name="aspire-colours" id="aspire-colours">
-                            <option value="">Select Colour</option>
-                            <option value="black">Black</option>
-                            <option value="rose-gold">Rose Gold</option>
-                            <option value="rainbow">Rainbow</option>
-                            <option value="blue-white">Blue & White</option>
-                        </select>
                         <p>£19.99</p>
-                        <p><a class="btn btn-primary btn-sm" href="">Buy</a></p>
                     </div>
                     <div class="rechargable-item">
                         <h5>Eleaf iStick</h5>
                         <img src="assets/images/rechargables/Eleaf_iStick_T80.jpg" alt="eleaf-istick" class="rechargable-image">
-                        <select name="eleaf-colours" id="eleaf-colours">
-                            <option value="">Select Colour</option>
-                            <option value="black">Black</option>
-                            <option value="silver">Silver</option>
-                            <option value="red">Red</option>
-                            <option value="blue">Blue</option>
-                        </select>
                         <p>£25.00</p>
-                        <p><a class="btn btn-primary btn-sm" href="">Buy</a></p>
                     </div>
                     <div class="rechargable-item">
                         <h5>Twister</h5>
                         <img src="assets/images/rechargables/Twister-80W.jpg" alt="twister" class="rechargable-image">
-                        <select name="twister-colours" id="twister-colours">
-                            <option value="">Select Colour</option>
-                            <option value="black-white">Black & White</option>
-                            <option value="blue">Blue</option>
-                            <option value="orange">Orange</option>
-                            <option value="red">Red</option>
-                        </select>
                         <p>£27.99</p>
-                        <p><a class="btn btn-primary btn-sm" href="">Buy</a></p>
                     </div>
                     <div class="rechargable-item">
                         <h5>VooPoo Drag</h5>
                         <img src="assets/images/rechargables/voopoo-drag.jpg" alt="voopoo-drag" class="rechargable-image">
-                        <select name="drag-colours" id="drag-colours">
-                            <option value="">Select Colour</option>
-                            <option value="dream-blue">Dream Blue</option>
-                            <option value="coffee-brown">Coffee Brown</option>
-                            <option value="marsala">Marsala</option>
-                            <option value="classic">Classic</option>
-                        </select>
                         <p>£34.99</p>
-                        <p><a class="btn btn-primary btn-sm" href="">Buy</a></p>
                     </div>
                 </div>
             </section>
@@ -220,54 +152,22 @@
                     <div class="liquid-item">
                         <h5>VaporFi</h5>
                         <img src="assets/images/liquids/VaporFi.jpeg" alt="vaporfi" class="liquid-image">
-                        <select name="vaporfi-flavours" id="vaporfi-flavours">
-                            <option value="">Select Flavour</option>
-                            <option value="strawberry-shortcake">Strawberry Shortcake</option>
-                            <option value="vanilla-caramel">Vanilla Caramel</option>
-                            <option value="raspberry-mocha">Raspberry Mocha</option>
-                            <option value="berry-slushie">Very Berry Slushie</option>
-                        </select>
                         <p>£2.50</p>
-                        <p><a class="btn btn-primary btn-sm" href="">Buy</a></p>
                     </div>
                     <div class="liquid-item">
                         <h5>Zeus Juice</h5>
                         <img src="assets/images/liquids/zeus-juice.jpg" alt="zeus-juice" class="liquid-image">
-                        <select name="zeus-flavours" id="zeus-flavours">
-                            <option value="">Select Flavour</option>
-                            <option value="atlantis">Atlantis</option>
-                            <option value="dimpleberry">Dimpleberry</option>
-                            <option value="dodoberry">Dodoberry</option>
-                            <option value="death-by-bunny">Death by Bunny</option>
-                        </select>
                         <p>£4.99</p>
-                        <p><a class="btn btn-primary btn-sm" href="">Buy</a></p>
                     </div>
                     <div class="liquid-item">
                         <h5>IVG</h5>
                         <img src="assets/images/liquids/IVG-liquid.jpg" alt="ivg" class="liquid-image">
-                        <select name="ivg-flavours" id="ivg-flavours">
-                            <option value="">Select Flavour</option>
-                            <option value="honey-crunch">Honey Crunch</option>
-                            <option value="unicorn-hoops">Unicorn Hoops</option>
-                            <option value="orangeade">Orangeade</option>
-                            <option value="sour-green-apple">Sour Green Apple</option>
-                        </select>
                         <p>£3.00</p>
-                        <p><a class="btn btn-primary btn-sm" href="">Buy</a></p>
                     </div>
                     <div class="liquid-item">
                         <h5>12 Monkeys</h5>
                         <img src="assets/images/liquids/12-monkeys.jpg" alt="12-monkeys" class="liquid-image">
-                        <select name="12-monkeys-flavours" id="12-monkeys-flavours">
-                            <option value="">Select Flavour</option>
-                            <option value="circle-of-life">Cirlce of Life</option>
-                            <option value="queen-soko">Queen Soko</option>
-                            <option value="jungle-secrets">Jungle Secrets</option>
-                            <option value="hakuna">Hakuna</option>
-                        </select>
                         <p>£7.00</p>
-                        <p><a class="btn btn-primary btn-sm" href="">Buy</a></p>
                     </div>
                 </div>
             </section>
@@ -277,19 +177,84 @@
     <footer class="container-fluid footer-container">
         <div class="row">
             <div class="col-3 mb-1 text-center social-item">
-                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
             </div>
             <div class="col-3 mb-1 text-center social-item">
-                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
             </div>
             <div class="col-3 mb-1 text-center social-item">
-                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://twitter.com/" target="_blank"><i class="fa-brands fa-twitter"></i></a>
             </div>
             <div class="col-3 mb-1 text-center social-item">
-                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://www.linkedin.com/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
             </div>
         </div>
     </footer>
+        <!--Modals-->
+        <div class="modal" tabindex="-1" role="dialog" id="signUpModal">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Sign Up to Tribal Vapes</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="form-group">
+                                <label for="email">Email address</label>
+                                <input type="email" class="form-control" id="email"
+                                    aria-describedby="emailHelp" placeholder="Enter email">
+                                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+                                    else.</small>
+                            </div>
+                            <div class="form-group">
+                                <label for="password">Password</label>
+                                <input type="password" class="form-control" id="password"
+                                    placeholder="Password">
+                            </div>
+                            <div class="form-group">
+                                <label for="confirm-password">Confirm Password</label>
+                                <input type="password" class="form-control" id="confirm-password"
+                                    placeholder="Password">
+                            </div>
+                            <button type="submit" class="btn btn-primary" data-dismiss="modal">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal" tabindex="-1" role="dialog" id="signInModal">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Sign In</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">Email address</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1"
+                                    aria-describedby="emailHelp" placeholder="Enter email">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputPassword1">Password</label>
+                                <input type="password" class="form-control" id="exampleInputPassword1"
+                                    placeholder="Password">
+                            </div>
+                            <div class="form-group">
+                                <small class="form-text text-muted" data-dismiss="modal" data-toggle="modal" data-target="#signUpModal">Don't have an account? Sign up now!</small>
+                            </div>
+                            <button type="submit" class="btn btn-primary" data-dismiss="modal">Login</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
     <!--Scripts-->
     <script src="https://kit.fontawesome.com/aa35820a25.js" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
