@@ -1,29 +1,39 @@
 # Tribal Vapes Production
 
 ## Technology Used
-With this project being to build a static website only a few technologies will/have been used in the planning and production of the website. Starting with planning stage, there was only one piece of technology used which was a software called 'Balsamiq Wireframes' and this was used to create the wireframe plans for the three web pages within the website.
+Balsamiq Wireframes - Used to build/create the basic visual template for the website across all screen sizes.
 
-Moving to the production stage, there was two main technologies as well as an additional sub-technology which has been for a few different elements throughout the website. Beginning with the main ones which are GitHub and GitPod, GitPod is a cloud based IDE that has been where all of code for both the HTML and CSS components have been created, GitHub is the cloud based software that has been used as the version control for the project but also where the project has been saved to. Finally the additional technology which is Bootstrap, this technology was used to help with the basic structuring and styling of the website as well as helping with responiveness and a collapsable navigation bar.
+GitPod - Cloud based IDE used to create and build the code for the website with HTML & CSS.
+
+HTML - Programming language used to build the structure of the website/web pages by the use of elements and different components.
+
+CSS - The styling for the website, used to make the web pages more visually appealing.
+
+Bootstrap - An external libary used that aims to focus on the resposiveness of the website.
+
+GitHub - A cloud based storage used as the version control for the production by committing and pushing at various stages throughout the development.
+
+GitPages - Used to deploy the final development.
 
 ----
 ## Testing
 ### Code Validation
 Landing Page
 
-![index_validated](assets/images/validations/code-validation.PNG)
+![index_validated](docx/validations/code-validation.PNG)
 
 About Page
 
-![about_validated](assets/images/validations/code-validation2.PNG)
+![about_validated](docx/validations/code-validation2.PNG)
 
 Shop Page
 
-![shop_validated](assets/images/validations/code-validation3.PNG)
+![shop_validated](docx/validations/code-validation3.PNG)
 
 ### Bugs
 One bug that occured during the production was whilst the implementation of the collapsable navigation bar was being added and the error shown below kept showing in the chrome dev tool.
 
-![fixed_bug](assets/images/snippet.PNG)
+![fixed_bug](docx/snippet.PNG)
 
 After looking over code, the reason for this bug to appear was the simple solution that versions for bootstrap that had been added were all different so resolving the situation was just a case of making sure all the bootstrap scripts/links were all the same version.
 

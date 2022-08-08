@@ -34,8 +34,8 @@ An additional element is with images used within the website will have a thin so
 ----
 ## Wireframes
 ### Index Page
-![Index_page](assets/images/wireframes/Index%20Page.png)
+![Index_page](docx/wireframes/Index%20Page.png)
 ### About Page
-![About_page](assets/images/wireframes/About%20Page.png)
+![About_page](docx/wireframes/About%20Page.png)
 ### Shop Page
-![Shop_page](assets/images/wireframes/Shop%20Page.png)
+![Shop_page](docx/wireframes/Shop%20Page.png)
