@@ -17,7 +17,7 @@ GitPages - Used to deploy the final development.
 
 ----
 ## Testing
-### Code Validation
+## Code Validation
 Landing Page
 
 ![index_validated](docx/validations/code-validation.PNG)
@@ -29,6 +29,32 @@ About Page
 Shop Page
 
 ![shop_validated](docx/validations/code-validation3.PNG)
+
+## User Stories
+
+### Signing up to Tribal Vapes: 1)Load the website, 2)Click on the sign up button in the promotion section/Click the Sign in button in the navigation bar, (if signing up through the nav bar) Click the text that says 'Don't have an account', 3)Enter your email and a password then confirm your password and submit.
+
+![story1-mobile](docx/user-stories/US1-mobile.PNG)
+![story1-tablet](docx/user-stories/US1-tablet.PNG)
+![story1-desktop](docx/user-stories/US1-desktop.PNG)
+
+### Seeing reviews other customers have mentioned: 1)Load the website, 2)Scroll to the bottom of the landing page.
+
+![story2-mobile](docx/user-stories/US2-mobile.PNG)
+![story2-tablet](docx/user-stories/US2-tablet.PNG)
+![story2-desktop](docx/user-stories/US2-desktop.PNG)
+
+### Reading about the company: 1)Locate and click "About" on the nav bar, 2)Scroll slightly down to read about the Ceo, 3)Scroll further to read about the team and their responsibilities.
+
+![story3-mobile](docx/user-stories/US3-mobile.PNG)
+![story3-tablet](docx/user-stories/US3-tablet.PNG)
+![story3-desktop](docx/user-stories/US3-desktop.PNG)
+
+### Viewing the products from Tribal Vapes: 1)Find and click "Products" within the nav bar, 2)Scroll through the page to view all the different products.
+
+![story4-mobile](docx/user-stories/US4-mobile.PNG)
+![story4-tablet](docx/user-stories/US4-tablet.PNG)
+![story4-desktop](docx/user-stories/US4-desktop.PNG)
 
 ### Bugs
 One bug that occured during the production was whilst the implementation of the collapsable navigation bar was being added and the error shown below kept showing in the chrome dev tool.
