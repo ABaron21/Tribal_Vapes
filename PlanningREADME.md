@@ -13,11 +13,28 @@ As a customer I need to be able to see a wide range of products that the company
 
 ----
 ## Features
-With the project only being a static website there are only a few features such navigating between 3 different pages as well as a collapsable nav menu for smaller screen sizes like mobile devices. On the home/index page there is a jumbotron feature that displays a promotion for first time users, below that is a section that shows three recommended items with a review section under the recommended that displays two reviews about the website/company.
+Features ascross all pages:
+* Navigation bar to access the different pages.
+* Sign up/Sign in button.
+* Collapsable nav bar on small devices.
+* Links in the footer to different social media sites.
 
-On the about page there'll be three sections, the first being a small text section describing what Tribal Vapes is about, the second section will talk about the ceo of the company, at the bottom of page will be a section that'll show the leaders of three main departments that'll consist within the business.
+Landing page features:
+* Jumbotron displaying a welcome promotion
+* Recommended items with a button that goes to the product page.
+* Review section with feedback from previous users,
 
-The third page on the website is a shopping page that'll consist of four sections that'll be similar but the only difference will be the type of items being displayed, the main feature of the page is a dropdown selection that'll have different flavours or colours.
+About page features:
+* Describing what Tribal Vapes is about.
+* Talk about the ceo of the company.
+* Read about three team leaders within the company.
+
+Product page features:
+* View different brands and products such as:
+    * New products
+    * Disposables
+    * E-cigarettes
+    * Liquids
 
 ----
 ## Future Features
@@ -25,7 +42,7 @@ Future plans for features to be added to the website is a shopping basket system
 
 ----
 ## Typography & Color Scheme
-The font that will be used throughout the web pages is "Ubuntu"(Link to font) with different font weights for a regular, bold and light font style. The font colour is going to be an offset white.
+The font that will be used throughout the web pages is [ubuntu](https://fonts.google.com/specimen/Ubuntu?query=ubuntu) with different font weights for a regular, bold and light font style. The font colour is going to be an offset white.
 
 The background colour scheme that will be set for the pages on the website is going to be an outer wrapper for the page that will be a light blend of grey and dark blue with an inner wrapper that is going to be a light charcoal colour.
 

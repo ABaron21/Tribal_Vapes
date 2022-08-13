@@ -32,25 +32,35 @@ Shop Page
 
 ## User Stories
 
-### Signing up to Tribal Vapes: 1)Load the website, 2)Click on the sign up button in the promotion section/Click the Sign in button in the navigation bar, (if signing up through the nav bar) Click the text that says 'Don't have an account', 3)Enter your email and a password then confirm your password and submit.
+### Signing up to Tribal Vapes:
+1. Load the website
+2. Click on the sign up button in the promotion section/Click the Sign in button in the navigation bar, (if signing up through the nav bar) Click the text that says 'Don't have an account'
+3. Enter your email and a password then confirm your password and submit.
 
 ![story1-mobile](docx/user-stories/us1-mobile.PNG)
 ![story1-tablet](docx/user-stories/us1-tablet.PNG)
 ![story1-desktop](docx/user-stories/us1-desktop.PNG)
 
-### Seeing reviews other customers have mentioned: 1)Load the website, 2)Scroll to the bottom of the landing page.
+### Seeing reviews other customers have mentioned:
+1. Load the website
+2. Scroll to the bottom of the landing page.
 
 ![story2-mobile](docx/user-stories/us2-mobile.PNG)
 ![story2-tablet](docx/user-stories/us2-tablet.PNG)
 ![story2-desktop](docx/user-stories/us2-desktop.PNG)
 
-### Reading about the company: 1)Locate and click "About" on the nav bar, 2)Scroll slightly down to read about the Ceo, 3)Scroll further to read about the team and their responsibilities.
+### Reading about the company:
+1. Locate and click "About" on the nav bar
+2. Scroll slightly down to read about the Ceo
+3. Scroll further to read about the team and their responsibilities.
 
 ![story3-mobile](docx/user-stories/us3-mobile.PNG)
 ![story3-tablet](docx/user-stories/us3-tablet.PNG)
 ![story3-desktop](docx/user-stories/us3-desktop.PNG)
 
-### Viewing the products from Tribal Vapes: 1)Find and click "Products" within the nav bar, 2)Scroll through the page to view all the different products.
+### Viewing the products from Tribal Vapes:
+1. Find and click "Products" within the nav bar
+2. Scroll through the page to view all the different products.
 
 ![story4-mobile](docx/user-stories/us4-mobile.PNG)
 ![story4-tablet](docx/user-stories/us4-tablet.PNG)
@@ -68,7 +78,9 @@ All web pages within the website have been tested to make sure that they are res
 
 ----
 ## Deployment
-As this project is only a small website production consisting of three web pages with just HTML and CSS, the website will be deployed through GitHub's GitPages as there's hardly any functionality behind the website so GitPages will be able to deploy the website and it'll be stable to view each web page with navigating between them and seeing the content of each page.
+Two versions on deployment:
+* GitPod - used throughout the development by typing 'python3 -m http.server' in the terminal which gives a prompt to open in a new tab within the browser.
+* GitPages - the final deployment of the website which makes it accesible to the public.
 
 ----
 ## Image Sources

@@ -108,7 +108,7 @@ h4 {
 }
 
 .footer-container{
-    background-color: rgb(92, 92, 92);
+    background-color: #5C5C5C;
 }
 
 /* --Hero-- */
@@ -243,6 +243,7 @@ h4 {
     margin: 0 auto;
     padding: 10px;
 }
+/* Gives the images a rounded edge and a thin black outline*/
 .new-image, .liquid-image, .rechargable-image, .disposable-image{
     width: 100px;
     height: 100px;
