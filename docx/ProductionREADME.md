@@ -1,5 +1,3 @@
-# Tribal Vapes Production
-
 ## Technology Used
 Balsamiq Wireframes - Used to build/create the basic visual template for the website across all screen sizes.
 
@@ -16,7 +14,7 @@ GitHub - A cloud based storage used as the version control for the production by
 GitPages - Used to deploy the final development.
 
 ----
-## Testing
+# Testing
 ## Code Validation
 Landing Page
 

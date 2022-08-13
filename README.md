@@ -1,108 +1,178 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Tribal Vapes
 
-Welcome A_Baron,
+## Purpose of the project
+The purpose of this project is to design and develop a static website based around just HTML and CSS, which displays both how a website is structured using different html elements as well as how a page is styled with css componants.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+----
+## User Stories
+As a customer I would like to see reviews/feedback from other customers so I can see how other people have liked the service and products sold.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+As a customer I would like to read about the company so I can find out about the company with how they express their business and how they help expand their user friendly expierience.
 
-## Gitpod Reminders
+As a customer I need to be able to see a wide range of products that the company sells so I can decide a choice from multi different brands/flavours and different rechargables.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+----
+## Features
+Features ascross all pages:
+* Navigation bar to access the different pages.
+* Sign up/Sign in button.
+* Collapsable nav bar on small devices.
+* Links in the footer to different social media sites.
 
-`python3 -m http.server`
+Landing page features:
+* Jumbotron displaying a welcome promotion
+* Recommended items with a button that goes to the product page.
+* Review section with feedback from previous users,
 
-A blue button should appear to click: _Make Public_,
+About page features:
+* Describing what Tribal Vapes is about.
+* Talk about the ceo of the company.
+* Read about three team leaders within the company.
 
-Another blue button should appear to click: _Open Browser_.
+Product page features:
+* View different brands and products such as:
+    * New products
+    * Disposables
+    * E-cigarettes
+    * Liquids
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+----
+## Future Features
+Future plans for features to be added to the website is a shopping basket system, account system with a wallet/payment system, a contact section where customers can leave feedback or ask any questions. A change that could be made is a more depth shopping page that would extend into sub-pages based on the type of product.
 
-A blue button should appear to click: _Make Public_,
+----
+## Typography & Color Scheme
+The font that will be used throughout the web pages is [ubuntu](https://fonts.google.com/specimen/Ubuntu?query=ubuntu) with different font weights for a regular, bold and light font style. The font colour is going to be an offset white.
 
-Another blue button should appear to click: _Open Browser_.
+The background colour scheme that will be set for the pages on the website is going to be an outer wrapper for the page that will be a light blend of grey and dark blue with an inner wrapper that is going to be a light charcoal colour.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+An additional element is with images used within the website will have a thin solid black border around the image which will add a bit of extra style to the images.
 
-To log into the Heroku toolbelt CLI:
+----
+## Wireframes
+### Index Page
+![index-page](docx/wireframes/index-page.png)
+### About Page
+![about-page](docx/wireframes/about-page.png)
+### Shop Page
+![shop-page](docx/wireframes/shop-page.png)
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+## Technology Used
+Balsamiq Wireframes - Used to build/create the basic visual template for the website across all screen sizes.
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+GitPod - Cloud based IDE used to create and build the code for the website with HTML & CSS.
 
-------
+HTML - Programming language used to build the structure of the website/web pages by the use of elements and different components.
 
-## Release History
+CSS - The styling for the website, used to make the web pages more visually appealing.
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+Bootstrap - An external libary used that aims to focus on the resposiveness of the website.
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+GitHub - A cloud based storage used as the version control for the production by committing and pushing at various stages throughout the development.
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+GitPages - Used to deploy the final development.
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+----
+# Testing
+## Code Validation
+Landing Page
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+![index_validated](docx/validations/code-validation.PNG)
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+About Page
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+![about_validated](docx/validations/code-validation2.PNG)
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+Shop Page
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+![shop_validated](docx/validations/code-validation3.PNG)
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+## User Stories
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+### Signing up to Tribal Vapes:
+1. Load the website
+2. Click on the sign up button in the promotion section/Click the Sign in button in the navigation bar, (if signing up through the nav bar) Click the text that says 'Don't have an account'
+3. Enter your email and a password then confirm your password and submit.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+![story1-mobile](docx/user-stories/us1-mobile.PNG)
+![story1-tablet](docx/user-stories/us1-tablet.PNG)
+![story1-desktop](docx/user-stories/us1-desktop.PNG)
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+### Seeing reviews other customers have mentioned:
+1. Load the website
+2. Scroll to the bottom of the landing page.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+![story2-mobile](docx/user-stories/us2-mobile.PNG)
+![story2-tablet](docx/user-stories/us2-tablet.PNG)
+![story2-desktop](docx/user-stories/us2-desktop.PNG)
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+### Reading about the company:
+1. Locate and click "About" on the nav bar
+2. Scroll slightly down to read about the Ceo
+3. Scroll further to read about the team and their responsibilities.
 
-------
+![story3-mobile](docx/user-stories/us3-mobile.PNG)
+![story3-tablet](docx/user-stories/us3-tablet.PNG)
+![story3-desktop](docx/user-stories/us3-desktop.PNG)
 
-## FAQ about the uptime script
+### Viewing the products from Tribal Vapes:
+1. Find and click "Products" within the nav bar
+2. Scroll through the page to view all the different products.
 
-**Why have you added this script?**
+![story4-mobile](docx/user-stories/us4-mobile.PNG)
+![story4-tablet](docx/user-stories/us4-tablet.PNG)
+![story4-desktop](docx/user-stories/us4-desktop.PNG)
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+### Bugs
+One bug that occured during the production was whilst the implementation of the collapsable navigation bar was being added and the error shown below kept showing in the chrome dev tool.
 
-**How will this affect me?**
+![fixed-bug](docx/snippet.PNG)
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+After looking over code, the reason for this bug to appear was the simple solution that versions for bootstrap that had been added were all different so resolving the situation was just a case of making sure all the bootstrap scripts/links were all the same version.
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+### Screens
+All web pages within the website have been tested to make sure that they are responsive for all screen sizes starting at mobile devices and increasing upwards to tablets, laptops and finally desktops being the typically largest screen expected for a browser window.
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+----
+## Deployment
+Two versions on deployment:
+* GitPod - used throughout the development by typing 'python3 -m http.server' in the terminal which gives a prompt to open in a new tab within the browser.
+* GitPages - the final deployment of the website which makes it accesible to the public.
 
-**So….?**
+----
+## Image Sources
+### About Images
+[woman](https://www.pexels.com/photo/woman-in-black-scoop-neck-shirt-smiling-38554/)
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+[man-1](https://en.wikipedia.org/wiki/Man#/media/File:Outdoors-man-portrait_(cropped).jpg)
 
-**Can I opt out?**
+[man-2](https://timesofindia.indiatimes.com/life-style/relationships/web-stories/traits-of-a-high-quality-man/photostory/83890812.cms)
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+[man-3](https://www.glamour.com/story/10-hot-guys-who-just-look-bett)
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+### Product Images
+[vaporfi](https://www.vaporfi.com/media/catalog/product/b/a/base_watermelonwave.jpg)
 
-**Anything more?**
+[12-monkeys](https://d1q4q7ketxgxfn.cloudfront.net/media/catalog/product/cache/312af16b4230f9639b105af4a9030f8d/1/2/12-monkeys-hakuna.jpg)
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+[ivg](https://vapable.com/wp-content/uploads/2021/06/IVG-Product-Image-30ml-sweett.jpg)
 
----
+[zeus-juice](http://cdn.ecommercedns.uk/files/9/239619/7/12117137/zeus-juice-typhon-shortfill.jpg)
 
-Happy coding!
+[drag](https://cdn.shopify.com/s/files/1/1975/5513/products/voopoo-drag-s-pro-kit-sapphire-blue_800x800_crop_center.jpg?v=1630412160)
+
+[twister](https://cdn.shopify.com/s/files/1/1783/8285/products/kit-freemax-twister-kit-metal-edition-free-bulb-glass-blue-7207647608921_1000x_4279d927-3972-496e-b5d1-67c55b4dffb1_700x700.jpg?v=1602749194)
+
+[aspire-pockex](https://www.ecigarettedirect.co.uk/media/catalog/product/cache/2/image/9df78eab33525d08d6e5fb8d27136e95/a/s/aspire-pockex-temp-grey-gradient.jpg)
+
+[eleaf](https://im9.cz/iRft/198/87/3209587198--400x400.jpg)
+
+[crystal-bar](https://cdn.shopify.com/s/files/1/0241/2241/products/Banana_Ice_3ef8b96d-bb0d-4a06-a527-33718461c958_600x.png?v=1649691453)
+
+[aroma-king](https://cdn.shopify.com/s/files/1/0503/6097/5511/products/aroma-king-7000-puffs-disposable-vape-pen-300227.jpg?v=1646790554)
+
+[elux](https://cdn.shopify.com/s/files/1/0274/9575/9990/products/EluxLegendTigerBlood3500Disposable.gif?v=1630578317)
+
+[elf-bar](https://www.electrictobacconist.co.uk/images/elf-bar-elf-berg-p9991-32867_image.jpg)
+
+[hero-image](https://vapingdaily.com/wp-content/uploads/2022/03/synthetic-nicotine-ban-2022-vapes-1.jpg)
