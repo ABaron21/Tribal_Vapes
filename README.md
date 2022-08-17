@@ -141,8 +141,10 @@ Two versions on deployment:
 * GitPages - the final deployment of the website which makes it accesible to the public.
 
 ----
-## Image Sources
-### About Images
+## Credits
+
+### Image Sources
+#### About Images
 [woman](https://www.pexels.com/photo/woman-in-black-scoop-neck-shirt-smiling-38554/)
 
 [man-1](https://en.wikipedia.org/wiki/Man#/media/File:Outdoors-man-portrait_(cropped).jpg)
@@ -177,3 +179,8 @@ Two versions on deployment:
 [elf-bar](https://www.electrictobacconist.co.uk/images/elf-bar-elf-berg-p9991-32867_image.jpg)
 
 [hero-image](https://vapingdaily.com/wp-content/uploads/2022/03/synthetic-nicotine-ban-2022-vapes-1.jpg)
+
+### External Code
+* Bootstrap
+    * Collapsable Nav Bar
+    * Sign up & Sign in modals
